@@ -43,6 +43,12 @@ nav ul li a:hover {
    background-color: #F6F5F5;
 }
 
+.justify-content-center {
+    list-style: none;
+    font-weight: bold;
+    color: #D1513D;
+}
+
 #logo {
    padding-top: 0px;
    display: flex;
@@ -140,7 +146,7 @@ nav ul li a:hover {
     font-weight: 400; 
     text-align: center; 
     background-color: white ; 
-    margin: 100px 100px; 
+    margin: 0; 
     overflow: hidden; 
     padding: 20px; 
     border-radius: 0px 0px 0px 0px; 
@@ -166,7 +172,7 @@ input {
     background: none;
     border-color: #0B0B0B;
     border-width: 0px 0px 2px 0px;
-    width: 450px;
+    width: 300px;
     margin-top: 8px;
 }
 
@@ -183,9 +189,6 @@ input {
     margin-bottom: 40px;
 }
 
-#footer {
-    text-align: center;  
-}
 
 .btnEnviarContacto {
     transition: all 0.5s ease-out;
@@ -259,8 +262,8 @@ input {
     justify-content: center;
     text-align: center;
     padding: 20px; 
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 0;
+    margin-right: 0x;
     margin-top: 50px;
     text-align: center;
 }
@@ -274,23 +277,27 @@ input {
 }
 
 .contactoFooter {
-        text-decoration: none;
-        transition: all 0.5s ease-out;
         height: 60px;
         background-color: #D1513D;
-        color: #F6F5F5;
-        border-radius: 35px 35px 35px 35px; 
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-top: 50px;
-    
-    }
-     
-    .contactoFooter:hover {
-        text-decoration: none;
-        background-color: #D1513D;
         color: #F6F5F5;
-        transform: scale(1.5);
-        border-radius: 35px 35px 35px 35px; 
-    
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    h1 {
+        color: #F6F5F5;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
     }
 
 
